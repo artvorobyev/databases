@@ -1,0 +1,2 @@
+ALTER TABLE `employees` CHANGE `is_head` `is_head` TINYINT(1) NULL DEFAULT '0';
+ALTER TABLE `projects` CHANGE `responsible_employee` `responsible_employee` INT(11) NOT NULL DEFAULT '1', CHANGE `branch` `branch` INT(11) NOT NULL DEFAULT '1';
